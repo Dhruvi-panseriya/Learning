@@ -311,9 +311,16 @@ p{
     padding-left: 35px;
 }
 
-
-.border-button text-center{
-    width: 50px;    
+.button2{
+    text-align: center;
+    border: 1px solid #00bdfe;
+    padding: 10px 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 50px;
+    color: #00bdfe;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 
