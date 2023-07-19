@@ -315,6 +315,12 @@ p{
 .border-button text-center{
     width: 50px;    
 }
+.card_button{
+    color: black;
+    text-decoration: none;
+}
 
-
+.border-button:hover .card_button{
+    color: white;
+}
 
