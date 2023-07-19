@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+<style>
+body{
+	background: #D3D3D3;
+}
+.center{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width: 400px;
+     Background: white;
+     font-family: 'Roboto', sans-serif;
+}
+.center h1{
+     text-align:center;
+}
+.center form {
+     padding: 0 40px;
+	box-sizing: border-box;
+}
+form .txt_field {
+     position:relative;
+border-bottom: 2px solid #adadad;
+margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    outline:none;
+    border:none;
+}
+.txt_field label{
+	position: absolute;
+	top:50%;
+ 	left:5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius:25px;
+	outline: none;
+     background-image: linear-gradient(to right, lightblue, purple);
+        color: #e9f4fb;
+	font-weight:700;
+}
+img{
+     position: relative;
+     margin-left: 165px;
+}
+.signup{
+     text-align: center;
+}
+
+</style>
+</head>
+<body>
+ <div class="center">
+
+ <h1> Welcome </h1>
+ <img src ="D:\alpha.png" width="50" height="50">
+ <form method="post">
+
+   <div class="txt_field">
+    
+    <input type = "text" required>
+   </div>
+   <div class="txt_field">
+    <input type = "password" required>
+    <label> Password </label>
+   </div>
+
+   <div>
+   <input type="submit" value="Login">
+   </div><br><br><br>
+   <div class="signup"> Don't have an account? <a href="">Signup</a>
+   </div>
+ </form>
+</div>
+</body>
+
+</html>
