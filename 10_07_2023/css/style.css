@@ -322,6 +322,12 @@ p{
     text-decoration: none;
     border-radius: 10px;
 }
+.card_button{
+    color: black;
+    text-decoration: none;
+}
 
-
+.border-button:hover .card_button{
+    color: white;
+}
 
