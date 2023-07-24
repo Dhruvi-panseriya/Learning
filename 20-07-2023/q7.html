@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (let year = 2014; year <= 2050; year++) {
+            date = new Date(year + ' 01 , 01 ');
+            if (date.getDay()===0){
+                document.write(`<h3>${year}</h3>`);
+            }
+        }
+    </script>
+</body>
+
+</html>

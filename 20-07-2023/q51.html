@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function time_convert(num)
+ { 
+  var hours = Math.floor(num / 60);  
+  var minutes = num % 60;
+  return hours + ":" + minutes;         
+}
+
+document.write(time_convert(71));
+document.write("<br>");
+document.write(time_convert(450));
+document.write("<br>");
+document.write(time_convert(1441));
+    </script>
+</body>
+</html>

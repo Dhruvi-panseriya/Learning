@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h2 id="text">w3resource</h2>
+    <button type="button" onclick="fun()">click here</button>
+
+    <script>
+        function fun(){
+            text = document.getElementById('text');
+            text1 = text.childNodes[0];
+            text2 = text1.data;
+
+            setInterval(() => {
+
+            text2 = text2.slice(-1)+ text2.substring(0, text2.length-1);
+            text1.data = text2;
+            }, 500);
+
+       }
+    </script>
+   
+</body>
+</html>

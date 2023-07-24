@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check_char(str1, char)
+ {
+  ctr = 0;
+  for (let i = 0; i < str1.length; i++)
+  {
+    if ((str1.charAt(i) == char) && (i >= 1 && i <= 3))
+    {
+        ctr=1;
+        break;
+    }
+   }
+   if (ctr==1) return true;
+   return false;
+}
+document.write(check_char("Python","y"));
+document.write("<br>");
+document.write(check_char("coffee","c"));
+    </script>
+</body>
+</html>

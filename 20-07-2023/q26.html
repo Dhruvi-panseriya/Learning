@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function front_back3(str)
+ {
+  if (str.length>=3)
+   {
+   str_len = 3;
+ 
+  back = str.substring(str.length-3);
+   return back + str + back;
+ }
+   else
+     return false;
+ }
+ document.write(front_back3('ab'));
+document.write("<br>");
+document.write(front_back3('dhruvi'));
+document.write("<br>");
+document.write(front_back3('hello'));
+document.write("<br>");
+document.write(front_back3('how'));
+
+    </script>
+</body>
+</html>

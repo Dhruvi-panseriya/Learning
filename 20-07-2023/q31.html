@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function max_of_three(x, y, z) 
+ {
+  max_val = 0;
+  if (x > y)
+  {
+    max_val = x;
+  } else
+  {
+    max_val = y;
+  }
+  if (z > max_val) 
+  {
+    max_val = z;
+  }
+  return max_val;
+}
+document.write(max_of_three(1,0,1));
+document.write("<br>");
+document.write(max_of_three(52,-52,-36));
+document.write("<br>");
+document.write(max_of_three(55,150,160));
+document.write("<br>");
+document.write(max_of_three(14,80,100));
+    </script>
+</body>
+</html>

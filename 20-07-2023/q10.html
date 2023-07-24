@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        1st Number : 
+        <input type="text" id="fnum" /><br>
+        2nd Number :
+        <input type="text" id="snum" /><br>
+        <input type="button" onclick="multiplyBy()" value="Multiply" />
+        <input type="button" onclick="devideBy()" value="Devide" /> 
+    </form>
+    <p>
+        Result is : 
+        <span id ="result"></span>
+    </p>
+
+    <script>
+        function multiplyBy(){
+            num1 = document.getElementById("fnum").value;
+            num2 = document.getElementById("snum").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+
+        function devideBy(){
+            num1 = document.getElementById("fnum").value;
+            num2 = document.getElementById("snum").value;
+            document.getElementById("result").innerHTML = num1 / num2;
+        }
+    </script>
+</body>
+</html>

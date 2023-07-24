@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function start_spec_str(str)
+{
+  if (str.length < 4)
+  {
+    return false;
+  }
+  front = str.substring(0, 4);
+  if (front == 'Java') 
+  {
+    return true;
+  }
+   else 
+   {
+    return false;
+  }
+}
+document.write(start_spec_str('Java'));
+document.write("<br>");
+document.write(start_spec_str('dhruvi'));
+document.write("<br>");
+document.write(start_spec_str('Javascript'));
+
+    </script>
+</body>
+</html>

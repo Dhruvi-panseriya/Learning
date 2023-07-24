@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function same_last_digit(p, q, r) {
+    return (p % 10 === q % 10) ||
+           (p % 10 === r % 10) ||
+           (q % 10 === r % 10);
+           
+}
+document.write(same_last_digit(22,32,42));
+document.write("<br>");
+document.write(same_last_digit(102,302,2));
+document.write("<br>");
+document.write(same_last_digit(20,22,45));
+    </script>
+</body>
+</html>

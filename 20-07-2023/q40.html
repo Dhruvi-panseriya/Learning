@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function test_number(x, y) {
+    return (x === 8 || y === 8 || x + y === 8 || Math.abs(x - y) === 8);
+}
+document.write(test_number(8, 9));
+document.write("<br>");
+document.write(test_number(16, 8));
+document.write("<br>");
+document.write(test_number(7, 8));
+document.write("<br>");
+document.write(test_number(25, 10));
+document.write("<br>");
+document.write(test_number(8, 8));
+document.write("<br>");
+document.write(test_number(4, 4));
+document.write("<br>");
+document.write(test_number(9, 25));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function leap_year(year){
+            if(year %100 ===0){
+                return(year %100 ===0 && year %400 ===0);
+            }
+            if(year % 4 == 0){
+                return true;
+            }
+            return false;
+        }
+        document.write(leap_year(2022));
+    </script>
+</body>
+</html>
